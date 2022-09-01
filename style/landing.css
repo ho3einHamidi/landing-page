@@ -61,3 +61,24 @@
     color: lightblue;
 
 }
+.landing img{
+  height: 500px;
+  width: 3000px;
+}
+.info-section{
+  padding: 32px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 3px solid pink;
+}
+.left-info{
+  
+}
+
+.line{
+  background-color: black;
+  height: 3px;
+  width: 64px;
+}
