@@ -182,12 +182,22 @@ height: 48px;
   display: block;
   font-weight: bold;
   text-transform: capitalize;
-
-
 }
 
-.services-desc-section{}
-.services-desc-section .services-desc-item{}
+.services-desc-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  gap: 16px;
+}
+.services-desc-section .services-desc-item{
+  width: 33.33%;
+  height: 100%;
+  background-color: red;
+}
 
 
 
