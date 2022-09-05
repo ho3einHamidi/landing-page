@@ -2,11 +2,9 @@
   box-sizing: border-box;
 }
 .main-page-wrapper {
-  /* background-color: red; */
   height: 100vh;
 }
 .header {
-  /* border: 3px solid black; */
   padding: 8px 32px;
   height: 64px;
   display: flex;
@@ -196,9 +194,41 @@ height: 48px;
 .services-desc-section .services-desc-item{
   width: 33.33%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  padding: 64px;
 }
+.services-desc-section .services-desc-item img{
+width: 48px;
+height: 48px;
 
-
-
-
+}
+.services-desc-section .services-desc-item span{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  
+}
+.services-desc-section .services-desc-item p{
+  line-height: 1.6;
+  color: #7e7e7e;
+  text-align: center;
+}
+.services-desc-section .services-desc-item span img{
+  transform: rotate(90deg);
+  height: 32px;
+}
+.services-desc-section .services-desc-item .services-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.services-desc-section .services-desc-item p span{
+  color: black;
+  text-align: center;
+}
